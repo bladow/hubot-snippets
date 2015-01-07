@@ -1,12 +1,20 @@
 # Description:
-#   Example scripts for you to examine and try out.
+#   Implements a method to perform Google Snippets task tracking
+#
+# Commands:
+#   #standup <message>                              # Record a standup message for the day
+#   #sitdown <message>                              # Record a sitdown message for the day
+#   #sitdown (<YYYY-MM-DD> || yesterday) <message>  # Record a sitdown message for a give date#
 #
 # Notes:
-#   They are commented out by default, because most of them are pretty silly and
-#   wouldn't be useful and amusing enough for day to day huboting.
-#   Uncomment the ones you want to try and experiment with.
+#   REST Endpoints
+#   /hubot/standups
+#   /hubot/standups/users
+#   /hubot/standups/users/count
+#   /hubot/standups/user/:name
 #
-#   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
+# Author:
+#   bladow
 
 module.exports = (robot) ->
     #
