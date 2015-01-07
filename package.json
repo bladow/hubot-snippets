@@ -1,0 +1,30 @@
+{
+  "name": "hubot-snippets",
+  "description": "A Hubot package that implement Google Snippet principles",
+  "version": "0.0.5",
+  "author": {
+    "name": "Garrett Bladow",
+    "email": "bladow@mammaljuice.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bladow/hubot-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bladow/hubot-snippets/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {},
+  "main": "index.coffee",
+  "engines": {
+    "node":"*"
+  }
+}
